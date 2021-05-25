@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/challenge-conversation/static/css/main.2078146b.chunk.css",
-    "main.js": "/challenge-conversation/static/js/main.93da5dd8.chunk.js",
-    "main.js.map": "/challenge-conversation/static/js/main.93da5dd8.chunk.js.map",
-    "runtime-main.js": "/challenge-conversation/static/js/runtime-main.e7ec0210.js",
-    "runtime-main.js.map": "/challenge-conversation/static/js/runtime-main.e7ec0210.js.map",
-    "static/js/2.c1276a9c.chunk.js": "/challenge-conversation/static/js/2.c1276a9c.chunk.js",
-    "static/js/2.c1276a9c.chunk.js.map": "/challenge-conversation/static/js/2.c1276a9c.chunk.js.map",
-    "static/js/3.863a2e78.chunk.js": "/challenge-conversation/static/js/3.863a2e78.chunk.js",
-    "static/js/3.863a2e78.chunk.js.map": "/challenge-conversation/static/js/3.863a2e78.chunk.js.map",
+    "main.css": "/challenge-conversation/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/challenge-conversation/static/js/main.41fc0d7c.chunk.js",
+    "main.js.map": "/challenge-conversation/static/js/main.41fc0d7c.chunk.js.map",
+    "runtime-main.js": "/challenge-conversation/static/js/runtime-main.bea1164e.js",
+    "runtime-main.js.map": "/challenge-conversation/static/js/runtime-main.bea1164e.js.map",
+    "static/js/2.ff481bfd.chunk.js": "/challenge-conversation/static/js/2.ff481bfd.chunk.js",
+    "static/js/2.ff481bfd.chunk.js.map": "/challenge-conversation/static/js/2.ff481bfd.chunk.js.map",
+    "static/js/3.072801dd.chunk.js": "/challenge-conversation/static/js/3.072801dd.chunk.js",
+    "static/js/3.072801dd.chunk.js.map": "/challenge-conversation/static/js/3.072801dd.chunk.js.map",
     "index.html": "/challenge-conversation/index.html",
-    "static/css/main.2078146b.chunk.css.map": "/challenge-conversation/static/css/main.2078146b.chunk.css.map",
-    "static/js/2.c1276a9c.chunk.js.LICENSE.txt": "/challenge-conversation/static/js/2.c1276a9c.chunk.js.LICENSE.txt"
+    "static/css/main.9d5b29c0.chunk.css.map": "/challenge-conversation/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.ff481bfd.chunk.js.LICENSE.txt": "/challenge-conversation/static/js/2.ff481bfd.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/challenge-conversation/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7ec0210.js",
-    "static/js/2.c1276a9c.chunk.js",
-    "static/css/main.2078146b.chunk.css",
-    "static/js/main.93da5dd8.chunk.js"
+    "static/js/runtime-main.bea1164e.js",
+    "static/js/2.ff481bfd.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.41fc0d7c.chunk.js"
   ]
 }
