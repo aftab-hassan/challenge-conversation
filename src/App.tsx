@@ -11,10 +11,20 @@ import LightBoxWrapper from "./LightBoxWrapper";
 import './App.css';
 
 const images = [
-  "//placekitten.com/1500/500",
-  "//placekitten.com/4000/3000",
-  "//placekitten.com/800/1200",
-  "//placekitten.com/1500/1500"
+  [
+    "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/school/9th.jpeg?raw=true",
+    "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/school/10th.jpeg?raw=true",
+    "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/school/trophies.jpeg?raw=true",
+    "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/school/trophies2.jpeg?raw=true",
+    "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/school/headboy.jpeg?raw=true",
+  ],// School
+  [],// Undergrad - First year
+  [],// Undergrad - Following years
+  [],// University of Washington
+  [],// University of Washington - Tailend
+  ["https://github.com/aftab-hassan/challenge-conversation/blob/main/public/microsoft/IMG_0029.jpeg?raw=true"],// Starting at Microsoft
+  [],//Azure - IoT
+  []//Now
 ];
 
 
@@ -51,9 +61,17 @@ const data = {
 export default function App() {
   const [showLightBox, setShowLightBox] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
+  const [clickedTooltip, setClickedTooltip] = useState(0);
 
   function setSetShowLightBoxToFalse () {
     setShowLightBox(false);
+  }
+
+  function getImagesArray() {
+    switch(clickedTooltip) {
+      case 0:
+        return 
+    }
   }
 
   const lineOptions = {
@@ -70,6 +88,7 @@ export default function App() {
         //     onCloseRequest={() => {}}
         //   />
         // );
+        setClickedTooltip(ind);
         setShowLightBox(true);
       }
     },
@@ -122,7 +141,7 @@ export default function App() {
       />} */}
       
       {showLightBox && <LightBoxWrapper
-        images={images}
+        images={images[clickedTooltip]}
         setSetShowLightBoxToFalse={setSetShowLightBoxToFalse}
         // onCloseRequest={() => {setShowLightBox(false)}}
       />}
