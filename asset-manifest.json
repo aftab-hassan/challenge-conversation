@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/challenge-conversation/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/challenge-conversation/static/js/main.41fc0d7c.chunk.js",
-    "main.js.map": "/challenge-conversation/static/js/main.41fc0d7c.chunk.js.map",
-    "runtime-main.js": "/challenge-conversation/static/js/runtime-main.bea1164e.js",
-    "runtime-main.js.map": "/challenge-conversation/static/js/runtime-main.bea1164e.js.map",
-    "static/js/2.ff481bfd.chunk.js": "/challenge-conversation/static/js/2.ff481bfd.chunk.js",
-    "static/js/2.ff481bfd.chunk.js.map": "/challenge-conversation/static/js/2.ff481bfd.chunk.js.map",
-    "static/js/3.072801dd.chunk.js": "/challenge-conversation/static/js/3.072801dd.chunk.js",
-    "static/js/3.072801dd.chunk.js.map": "/challenge-conversation/static/js/3.072801dd.chunk.js.map",
-    "index.html": "/challenge-conversation/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/challenge-conversation/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.ff481bfd.chunk.js.LICENSE.txt": "/challenge-conversation/static/js/2.ff481bfd.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/challenge-conversation/static/media/logo.6ce24c58.svg"
+    "main.css": "/updown/static/css/main.2078146b.chunk.css",
+    "main.js": "/updown/static/js/main.93da5dd8.chunk.js",
+    "main.js.map": "/updown/static/js/main.93da5dd8.chunk.js.map",
+    "runtime-main.js": "/updown/static/js/runtime-main.fb9f3258.js",
+    "runtime-main.js.map": "/updown/static/js/runtime-main.fb9f3258.js.map",
+    "static/js/2.9a66c9a5.chunk.js": "/updown/static/js/2.9a66c9a5.chunk.js",
+    "static/js/2.9a66c9a5.chunk.js.map": "/updown/static/js/2.9a66c9a5.chunk.js.map",
+    "static/js/3.863a2e78.chunk.js": "/updown/static/js/3.863a2e78.chunk.js",
+    "static/js/3.863a2e78.chunk.js.map": "/updown/static/js/3.863a2e78.chunk.js.map",
+    "index.html": "/updown/index.html",
+    "static/css/main.2078146b.chunk.css.map": "/updown/static/css/main.2078146b.chunk.css.map",
+    "static/js/2.9a66c9a5.chunk.js.LICENSE.txt": "/updown/static/js/2.9a66c9a5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bea1164e.js",
-    "static/js/2.ff481bfd.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.41fc0d7c.chunk.js"
+    "static/js/runtime-main.fb9f3258.js",
+    "static/js/2.9a66c9a5.chunk.js",
+    "static/css/main.2078146b.chunk.css",
+    "static/js/main.93da5dd8.chunk.js"
   ]
 }
