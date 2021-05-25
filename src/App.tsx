@@ -12,6 +12,7 @@ import './App.css';
 
 const images = [
   [
+    "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/school/orange.jpg?raw=true",
     "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/school/9th.jpeg?raw=true",
     "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/school/10th.jpeg?raw=true",
     "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/school/trophies.jpeg?raw=true",
@@ -20,7 +21,8 @@ const images = [
   ],// School
   [],// Undergrad - First year
   [],// Undergrad - Following years
-  [],// University of Washington
+  ["https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/acceptance-letter.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/mamma-pappa.png?raw=true"],// University of Washington
   [],// University of Washington - Tailend
   ["https://github.com/aftab-hassan/challenge-conversation/blob/main/public/microsoft/IMG_0029.jpeg?raw=true"],// Starting at Microsoft
   [],//Azure - IoT
