@@ -21,8 +21,24 @@ const images = [
   ],// School
   [],// Undergrad - First year
   [],// Undergrad - Following years
-  ["https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/acceptance-letter.png?raw=true",
-  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/mamma-pappa.png?raw=true"],// University of Washington
+  ["https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/67.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/68.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/69.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/70.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/71.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/76.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/77.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/78.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/79.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/80.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/80-2.png?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/100.jpg?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/101.jpg?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/102.jpg?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/103.jpg?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/104.jpg?raw=true",
+  "https://github.com/aftab-hassan/challenge-conversation/blob/main/public/university-of-washington/105.jpg?raw=true"
+],// University of Washington
   [],// University of Washington - Tailend
   ["https://github.com/aftab-hassan/challenge-conversation/blob/main/public/microsoft/IMG_0029.jpeg?raw=true"],// Starting at Microsoft
   [],//Azure - IoT
@@ -35,27 +51,24 @@ const data = {
   datasets: [
     {
       label: "First dataset",
-      // data: [10, -10, -5, 10, -10, 10],
       data: [1, -1, -0.5, 1, 0, 1, -1, 0, 0],
       fill: false,
       backgroundColor: "rgba(75,192,192,0.2)",
       borderColor: "rgba(75,192,192,1)",
       lineTension: 0.1,
-      // backgroundColor: "rgba(75,192,192,0.4)",
-      // borderColor: "rgba(75,192,192,1)",
       borderCapStyle: "butt",
       borderDash: [],
       borderDashOffset: 0.0,
       borderJoinStyle: "miter",
       pointBorderColor: "rgba(75,192,192,1)",
       pointBackgroundColor: "#fff",
-      pointBorderWidth: 10,
+      pointBorderWidth: 5,
       pointHoverRadius: 10,
       pointHoverBackgroundColor: "rgba(75,192,192,1)",
       pointHoverBorderColor: "rgba(220,220,220,1)",
-      pointHoverBorderWidth: 10,
-      pointRadius: 10,
-      pointHitRadius: 100
+      pointHoverBorderWidth: 5,
+      pointRadius: 5,
+      pointHitRadius: 150
     }
   ]
 };
@@ -148,28 +161,28 @@ export default function App() {
         // onCloseRequest={() => {setShowLightBox(false)}}
       />}
 
-      <div style={{position: "fixed", top: 50, left: 50}}>
+      <div style={{position: "fixed", top: 65, left: 50}}>
         <LifeEvent title="School"/>
       </div>
-      <div style={{position: "fixed", top: 900, left: 160}}>
+      <div style={{position: "fixed", top: 915, left: 160}}>
         <LifeEvent title="Undergrad - First year"/>
       </div>
-      <div style={{position: "fixed", top: 700, left: 350}}>
+      <div style={{position: "fixed", top: 715, left: 350}}>
         <LifeEvent title="Undergrad - Following years"/>
       </div>
-      <div style={{position: "fixed", top: 50, left: 500}}>
+      <div style={{position: "fixed", top: 65, left: 500}}>
         <LifeEvent title="University of Washington"/>
       </div>
-      <div style={{position: "fixed", top: 490, left: 700}}>
+      <div style={{position: "fixed", top: 505, left: 700}}>
         <LifeEvent title="University of Washington - Tailend"/>
       </div>
-      <div style={{position: "fixed", top: 50, left: 930}}>
+      <div style={{position: "fixed", top: 65, left: 930}}>
         <LifeEvent title="Starting at Microsoft"/>
       </div>
-      <div style={{position: "fixed", top: 900, left: 1250}}>
+      <div style={{position: "fixed", top: 915, left: 1250}}>
         <LifeEvent title="Azure - IoT"/>
       </div>
-      <div style={{position: "fixed", top: 500, left: 1450}}>
+      <div style={{position: "fixed", top: 515, left: 1450}}>
         <LifeEvent title="Now"/>
       </div>
     </>
