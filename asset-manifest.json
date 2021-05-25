@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/challenge-conversation/static/css/main.2078146b.chunk.css",
-    "main.js": "/challenge-conversation/static/js/main.93da5dd8.chunk.js",
-    "main.js.map": "/challenge-conversation/static/js/main.93da5dd8.chunk.js.map",
-    "runtime-main.js": "/challenge-conversation/static/js/runtime-main.e7ec0210.js",
-    "runtime-main.js.map": "/challenge-conversation/static/js/runtime-main.e7ec0210.js.map",
-    "static/js/2.c1276a9c.chunk.js": "/challenge-conversation/static/js/2.c1276a9c.chunk.js",
-    "static/js/2.c1276a9c.chunk.js.map": "/challenge-conversation/static/js/2.c1276a9c.chunk.js.map",
-    "static/js/3.863a2e78.chunk.js": "/challenge-conversation/static/js/3.863a2e78.chunk.js",
-    "static/js/3.863a2e78.chunk.js.map": "/challenge-conversation/static/js/3.863a2e78.chunk.js.map",
-    "index.html": "/challenge-conversation/index.html",
-    "static/css/main.2078146b.chunk.css.map": "/challenge-conversation/static/css/main.2078146b.chunk.css.map",
-    "static/js/2.c1276a9c.chunk.js.LICENSE.txt": "/challenge-conversation/static/js/2.c1276a9c.chunk.js.LICENSE.txt"
+    "main.css": "/helloworld1/static/css/main.2078146b.chunk.css",
+    "main.js": "/helloworld1/static/js/main.93da5dd8.chunk.js",
+    "main.js.map": "/helloworld1/static/js/main.93da5dd8.chunk.js.map",
+    "runtime-main.js": "/helloworld1/static/js/runtime-main.4ea81f31.js",
+    "runtime-main.js.map": "/helloworld1/static/js/runtime-main.4ea81f31.js.map",
+    "static/js/2.ef99762f.chunk.js": "/helloworld1/static/js/2.ef99762f.chunk.js",
+    "static/js/2.ef99762f.chunk.js.map": "/helloworld1/static/js/2.ef99762f.chunk.js.map",
+    "static/js/3.863a2e78.chunk.js": "/helloworld1/static/js/3.863a2e78.chunk.js",
+    "static/js/3.863a2e78.chunk.js.map": "/helloworld1/static/js/3.863a2e78.chunk.js.map",
+    "index.html": "/helloworld1/index.html",
+    "static/css/main.2078146b.chunk.css.map": "/helloworld1/static/css/main.2078146b.chunk.css.map",
+    "static/js/2.ef99762f.chunk.js.LICENSE.txt": "/helloworld1/static/js/2.ef99762f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7ec0210.js",
-    "static/js/2.c1276a9c.chunk.js",
+    "static/js/runtime-main.4ea81f31.js",
+    "static/js/2.ef99762f.chunk.js",
     "static/css/main.2078146b.chunk.css",
     "static/js/main.93da5dd8.chunk.js"
   ]
