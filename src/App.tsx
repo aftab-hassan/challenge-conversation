@@ -125,7 +125,13 @@ export default function App() {
           ticks: {
             display: false
           }
-        }
+        },
+        // {
+        //   scaleLabel: {
+        //     display: false,
+        //     labelString: 'X text'
+        //   }
+        // }
       ],
       yAxes: [
         {
@@ -133,7 +139,7 @@ export default function App() {
             display: true
           },
           ticks: {
-            // display: false
+            // display: false,
           }
         }
       ]
@@ -159,31 +165,41 @@ export default function App() {
         images={images[clickedTooltip]}
         setSetShowLightBoxToFalse={setSetShowLightBoxToFalse}
         // onCloseRequest={() => {setShowLightBox(false)}}
-      />}
+        />}
 
-      <div style={{position: "fixed", top: 65, left: 50}}>
+      <div style={{position: "fixed", top: 60, left: 50}}>
         <LifeEvent title="School"/>
       </div>
-      <div style={{position: "fixed", top: 915, left: 160}}>
+      <div style={{position: "fixed", top: 895, left: 160}}>
         <LifeEvent title="Undergrad - First year"/>
       </div>
       <div style={{position: "fixed", top: 715, left: 350}}>
         <LifeEvent title="Undergrad - Following years"/>
       </div>
-      <div style={{position: "fixed", top: 65, left: 500}}>
+      <div style={{position: "fixed", top: 60, left: 500}}>
         <LifeEvent title="University of Washington"/>
       </div>
       <div style={{position: "fixed", top: 505, left: 700}}>
         <LifeEvent title="University of Washington - Tailend"/>
       </div>
-      <div style={{position: "fixed", top: 65, left: 930}}>
+      <div style={{position: "fixed", top: 60, left: 930}}>
         <LifeEvent title="Starting at Microsoft"/>
       </div>
-      <div style={{position: "fixed", top: 915, left: 1250}}>
+      <div style={{position: "fixed", top: 895, left: 1250}}>
         <LifeEvent title="Azure - IoT"/>
       </div>
       <div style={{position: "fixed", top: 515, left: 1450}}>
         <LifeEvent title="Now"/>
+      </div>
+
+      <div className="xAxisTitle">
+        {/* <LifeEvent title="Life event"/> */}
+        Life event
+      </div>
+
+      <div className="yAxisTitle">
+        {/* <span style={{marginLeft: 10}}>&#8592;</span> */}
+        Comfort level
       </div>
     </>
   );
